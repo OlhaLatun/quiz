@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/OlhaLatun/quiz/static/css/main.4cbd216f.chunk.css",
+    "main.js": "/OlhaLatun/quiz/static/js/main.f83a2b4f.chunk.js",
+    "main.js.map": "/OlhaLatun/quiz/static/js/main.f83a2b4f.chunk.js.map",
+    "runtime-main.js": "/OlhaLatun/quiz/static/js/runtime-main.aa2c9511.js",
+    "runtime-main.js.map": "/OlhaLatun/quiz/static/js/runtime-main.aa2c9511.js.map",
+    "static/js/2.af0d1cc9.chunk.js": "/OlhaLatun/quiz/static/js/2.af0d1cc9.chunk.js",
+    "static/js/2.af0d1cc9.chunk.js.map": "/OlhaLatun/quiz/static/js/2.af0d1cc9.chunk.js.map",
+    "index.html": "/OlhaLatun/quiz/index.html",
+    "static/css/main.4cbd216f.chunk.css.map": "/OlhaLatun/quiz/static/css/main.4cbd216f.chunk.css.map",
+    "static/js/2.af0d1cc9.chunk.js.LICENSE.txt": "/OlhaLatun/quiz/static/js/2.af0d1cc9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/OlhaLatun/quiz/static/media/simpsons.ff28f61d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa2c9511.js",
+    "static/js/2.af0d1cc9.chunk.js",
+    "static/css/main.4cbd216f.chunk.css",
+    "static/js/main.f83a2b4f.chunk.js"
+  ]
+}
