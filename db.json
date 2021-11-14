@@ -1,0 +1,118 @@
+{
+  "questions": [
+  {
+      "E": "You prefer to direct your energy to deal with people, things, situations.",
+      "I": "You prefer to direct your energy to study ideas, information, explanations or beliefs."
+  },
+  {
+      "S": "You prefer to deal with facts, proven procedures, what you know, a realist here & now.",
+      "N": "You prefer to deal with ideas, look into the unknown, to generate new possibilities or to unticipate what isn\/'t obvious."
+  },
+  {
+      "T": "You prefer to decide on the basis of logic, using an analytic and impersonal approach.",
+      "F": "You prefer to decide using values, or beliefs, using a subjective, people oriented approach."
+  },
+  {
+      "J": "You prefer your life to be planned in a stable and organised way",
+      "P": "You prefer to go with the flow, have flexibility & respond to events"
+  }
+],
+"keys": {
+  "ESTJ":{
+     "character":"Chief Wiggum",
+     "strengths":"Enthusiastic people who are driven to fulfil their obligations and duties. They are committed to relationships which they consider to be lifelong & unalterable – Good in atight spot",
+     "weaknesses":"Tendency to always needing to be in charge and maybe controlling of friends & colleagues.",
+     "img": "https://superawesomevectors.com/wp-content/uploads/2020/12/chief-clancy-wiggum-free-vector.jpg" 
+    },
+  "ESFJ":{
+     "character":"Ned Flanders",
+     "strengths":"Warm hearted individuals who highly value their relationships. Customer focused with the ability to bring out the best of people.",
+     "weaknesses":"Can be self-sacrificing and may not pay enough attention to their own needs",
+     "img":"https://superawesomevectors.com/wp-content/uploads/2017/10/ned-flanders-simpsons-free-vector-800x566.jpg"
+  },
+  "ISTJ":{
+     "character":"Principal Skinner",
+     "strengths":"Honour their commitments, Able to take constructive criticism well ",
+     "weaknesses":"Tendency to believe that they're always right, Their value for structure may seem rigid to others",
+     "img":"https://images.all-free-download.com/images/graphiclarge/principal_skinner_01_the_simpsons_51951.jpg"
+  },
+  "ISFJ":{
+     "character":"Marge Simpson",
+     "strengths":"Warm, friendly and affirming by nature. Excellent organizational capabilities ",
+     "weaknesses":"Extreme dislike of conflict and criticism. Unlikely to express their needs, which may cause pent-up frustrations",
+     "img":"https://www.kindpng.com/picc/m/282-2826177_marge-simpson-hd-png-download.png"
+  },
+  "ESTP":{
+     "character":"Bart Simpson",
+     "strengths":"They love action and always seem to be doing something. Clear-headed when dealing with emergencies.",
+     "weaknesses":"Get bored easily. Enjoys lavishing loved ones with big gifts",
+     "img":"https://wallpaperaccess.com/full/698122.jpg"
+  },
+  "ESFP":{
+     "character":"Homer Simpson",
+     "strengths":"Generous & will go out of their way to help a colleagues. Live for the moment & know how to make the most of each moment. ",
+     "weaknesses":"Can take conflict personally. Resist relationships that require them to function on a high intuitive or thinking level ",
+     "img":"https://wallpaperaccess.com/full/1202252.jpg"
+  },
+  "ISTP":{
+     "character":"Sideshow Bob",
+     "strengths":"Usually self-confident, are not threatened by conflict or criticism ",
+     "weaknesses":"They thrive on action and excitement, and may stir things up to create it",
+     "img":"https://wallpapercave.com/wp/wp8891681.jpg"
+  },
+  "ISFP":{
+     "character":"Smithers",
+     "strengths":"Flexible and laid-back, usually willing to defer to their mates, Warm, friendly and affirming by nature ",
+     "weaknesses":"Extreme dislike of conflict and criticism. Tendency to hold back their thoughts and feelings, unless drawn out",
+     "img":"https://www.kindpng.com/picc/m/390-3909243_smithers-simpsons-hd-png-download.png"
+  },
+  "ENTJ":{
+     "character":"Krusty the Clown",
+     "strengths":"Enjoys lively intellectual conversations - welcoming such interactions as a learning opportunity",
+     "weaknesses":"Can be direct & confrontational ",
+     "img":"https://superawesomevectors.com/wp-content/uploads/2017/10/krusty-the-clown-simpsons-vector-800x566.jpg"
+  },
+  "ENTP":{
+     "character":"Kent Brockman",
+     "strengths":"Laid back and can get along with almost all other types of people. Enjoy dicussing & debating theories and concepts that interests them.",
+     "weaknesses":"Can initiate arguments because they enjoy the debate. ",
+     "img":"https://memegenerator.net/img/images/13096533/kent-brockman-blank.jpg"
+  },
+  "INTJ":{
+     "character":"Mr Burns",
+     "strengths":"Not threatened by conflict or criticism, Able to leave relationships which should be ended",
+     "weaknesses":"May be insensitive at times. Tendency to be unwilling or unable to accept blame",
+     "img":"https://www.pngkey.com/png/detail/166-1663832_mr-burns-montgomery-burns.png"
+  },
+  "INTP":{
+     "character":"Prof Frink",
+     "strengths":"Approach things which interest them very enthusiastically, Richly imaginative and creative ",
+     "weaknesses":"Tend to be suspicious and distrusting of others, Tend to \"blow off\" conflict situations by ignoring them, or else they \"blow up\" in heated anger",
+     "img":"https://lh3.googleusercontent.com/proxy/-Ydp8du_96GOhXZ2yrEzEniUzKVCNs33bI-2ZanYgYnTmRJrhFD8rkJFsXtV7c2Rh72aW8FWH1LLu5k4pcrzbq-OJve3V1l_dI8KxSN8WxFjrx8jKely2VcWUr8s2gueMh6sC16vCclMbi7o9MjhCCJVT6SrVeALv4SERBi5gG-rajk"
+  },
+  "ENFJ":{
+     "character":"Apu",
+     "strengths":"Warm sociable people who are keenly in tune with other’s feeling & perspectives",
+     "weaknesses":"s Well defined value systems can make them inflexible in some areas ",
+     "img":"https://images.all-free-download.com/images/graphiclarge/apu_nahasapeemapetilon_01_the_simpsons_50261.jpg"
+  },
+  "ENFP":{
+     "character":"Barney Grumble",
+     "strengths":"See the best in people and likely to bring out the best in people. Put a lot of effort into making thing work out between people",
+     "weaknesses":"No weaknesses",
+     "img":"https://superawesomevectors.com/wp-content/uploads/2017/10/barney-gumble-simpsons-free-vector-800x566.jpg"
+  },
+  "INFJ":{
+     "character":"Lisa Simpson",
+     "strengths":"Have very high expectations for themselves and others (both a strength and weakness). Sensitive and concerned for others' feelings ",
+     "weaknesses":"Extreme dislike of conflict and criticism",
+     "img":"https://lh3.googleusercontent.com/proxy/XBlISmsyj3uG4NWZKi3kClF89IdE0ApsIMdygENWrn9Jx671aYo0VT4bvDCWLDPetvdkX9mrnN2PY0LfSMj4_iG6DHlK6oWmxX9CiFb1xMnQ-tlgT1UEoCbVzcoZncvdRMQu2j2KFZ09O-5Za28K_w"
+  },
+  "INFP":{
+     "character":"Ralph Wiggum",
+     "strengths":"Have Driven to meet other's needs, Strive for \"win-win\" situations ",
+     "weaknesses":"May tend to be shy and reserved , Perfectionist tendencies may cause them to not give themselves enough credit",
+     "img":"https://superawesomevectors.com/wp-content/uploads/2017/10/ralph-wiggum-simpsons-free-vector-800x566.jpg"
+  }
+}      
+}
