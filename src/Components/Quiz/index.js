@@ -10,7 +10,7 @@ export default function Quiz() {
     const [quizRes, setQuizResult] = useState(null)
 
     useEffect(() => {
-        fetch('http://localhost:3000/questions')
+        fetch('https://my-json-server.typicode.com/OlhaLatun/server/questions')
         .then(res => res.json())
         .then(data => setQuestions(data))
 
@@ -21,7 +21,7 @@ export default function Quiz() {
 
     function getResult(key) {
         let k = key.join('')
-        fetch('http://localhost:3000/keys')
+        fetch('https://my-json-server.typicode.com/OlhaLatun/server/keys')
         .then(res => res.json())
         .then(data => {
             for (let key in data) {
