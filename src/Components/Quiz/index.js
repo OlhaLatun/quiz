@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './Quiz.css'
-
+import { data } from '../../fakeData'
 
 export default function Quiz() {
 
@@ -11,8 +11,9 @@ export default function Quiz() {
 
     useEffect(() => {
         fetch('https://my-json-server.typicode.com/OlhaLatun/server/questions')
-        .then(res => res.json())
+        .then(res => res.ok ? res.json() : data.questions)
         .then(data => setQuestions(data))
+    
 
         if (quizKey.length === 4) {
             getResult(quizKey)
@@ -22,7 +23,7 @@ export default function Quiz() {
     function getResult(key) {
         let k = key.join('')
         fetch('https://my-json-server.typicode.com/OlhaLatun/server/keys')
-        .then(res => res.json())
+        .then(res => res.ok ? res.json() : data.keys)
         .then(data => {
             for (let key in data) {
               if (key === k ){
