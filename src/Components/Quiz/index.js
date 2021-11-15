@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './Quiz.css'
-import { data } from '../../fakeData'
+
 
 export default function Quiz() {
 
@@ -11,7 +11,7 @@ export default function Quiz() {
 
     useEffect(() => {
         fetch('https://my-json-server.typicode.com/OlhaLatun/server/questions')
-        .then(res => res.ok ? res.json() : data.questions)
+        .then(res => res.json())
         .then(data => setQuestions(data))
     
 
@@ -23,7 +23,7 @@ export default function Quiz() {
     function getResult(key) {
         let k = key.join('')
         fetch('https://my-json-server.typicode.com/OlhaLatun/server/keys')
-        .then(res => res.ok ? res.json() : data.keys)
+        .then(res => res.json())
         .then(data => {
             for (let key in data) {
               if (key === k ){
@@ -45,7 +45,7 @@ export default function Quiz() {
         <h1 className="quiz-title">Quiz</h1>
         { questions[questionCounter] ? 
          < Question question={questions[questionCounter]} 
-         saveKey={key => setQuizKey(prevState => [...prevState, key])}
+         setKey={key => setQuizKey(prevState => [...prevState, key])}
          setCount={step => setQuestionCounter(prevState => prevState + step)}/> : null }
          {quizRes ? 
          <>
@@ -60,7 +60,7 @@ export default function Quiz() {
 function Question(props) {
     
     function handleClick({target}) {
-        props.saveKey(target.id)
+        props.setKey(target.id)
         props.setCount(1)
     } 
 
