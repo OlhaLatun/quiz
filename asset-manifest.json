@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/OlhaLatun/quiz/static/css/main.c41b3cac.chunk.css",
-    "main.js": "/OlhaLatun/quiz/static/js/main.661f4cf6.chunk.js",
-    "main.js.map": "/OlhaLatun/quiz/static/js/main.661f4cf6.chunk.js.map",
-    "runtime-main.js": "/OlhaLatun/quiz/static/js/runtime-main.aa2c9511.js",
-    "runtime-main.js.map": "/OlhaLatun/quiz/static/js/runtime-main.aa2c9511.js.map",
-    "static/js/2.af0d1cc9.chunk.js": "/OlhaLatun/quiz/static/js/2.af0d1cc9.chunk.js",
-    "static/js/2.af0d1cc9.chunk.js.map": "/OlhaLatun/quiz/static/js/2.af0d1cc9.chunk.js.map",
-    "index.html": "/OlhaLatun/quiz/index.html",
-    "static/css/main.c41b3cac.chunk.css.map": "/OlhaLatun/quiz/static/css/main.c41b3cac.chunk.css.map",
-    "static/js/2.af0d1cc9.chunk.js.LICENSE.txt": "/OlhaLatun/quiz/static/js/2.af0d1cc9.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/OlhaLatun/quiz/static/media/simpsons.ff28f61d.png"
+    "main.css": "/quiz/static/css/main.883988ee.chunk.css",
+    "main.js": "/quiz/static/js/main.82df8fdd.chunk.js",
+    "main.js.map": "/quiz/static/js/main.82df8fdd.chunk.js.map",
+    "runtime-main.js": "/quiz/static/js/runtime-main.afead6bc.js",
+    "runtime-main.js.map": "/quiz/static/js/runtime-main.afead6bc.js.map",
+    "static/js/2.af0d1cc9.chunk.js": "/quiz/static/js/2.af0d1cc9.chunk.js",
+    "static/js/2.af0d1cc9.chunk.js.map": "/quiz/static/js/2.af0d1cc9.chunk.js.map",
+    "index.html": "/quiz/index.html",
+    "static/css/main.883988ee.chunk.css.map": "/quiz/static/css/main.883988ee.chunk.css.map",
+    "static/js/2.af0d1cc9.chunk.js.LICENSE.txt": "/quiz/static/js/2.af0d1cc9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/quiz/static/media/simpsons.ff28f61d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.aa2c9511.js",
+    "static/js/runtime-main.afead6bc.js",
     "static/js/2.af0d1cc9.chunk.js",
-    "static/css/main.c41b3cac.chunk.css",
-    "static/js/main.661f4cf6.chunk.js"
+    "static/css/main.883988ee.chunk.css",
+    "static/js/main.82df8fdd.chunk.js"
   ]
 }
