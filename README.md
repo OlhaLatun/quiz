@@ -24,7 +24,11 @@ $ npm install
 
 ### Run the app in the development mode 
 
-Run $ npm start and go to [http://localhost:3000](http://localhost:3000)
+Run 
+
+$ npm start
+
+and go to [http://localhost:3000](http://localhost:3000)
 
 or see deployed project on [https://olhalatun.github.io/quiz/](https://olhalatun.github.io/quiz/)
 
