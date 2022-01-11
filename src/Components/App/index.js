@@ -9,7 +9,7 @@ function App() {
 
   function startQuiz({target}) {
     setStart(true)
-    target.hidden = true 
+    target.hidden = true
   }
 
   return (

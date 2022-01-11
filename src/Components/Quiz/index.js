@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react'
-import './Quiz.css'
 
+import Question from '../Question'
+import Result from '../Result'
+
+import './Quiz.css'
 
 export default function Quiz() {
 
@@ -14,7 +17,6 @@ export default function Quiz() {
         .then(res => res.json())
         .then(data => setQuestions(data))
     
-
         if (quizKey.length === 4) {
             getResult(quizKey)
         }
@@ -53,49 +55,6 @@ export default function Quiz() {
          <button className="btn" onClick={() => restartQuiz()}>Restart</button>
          </>
          : null}
-        </div>
-    )
-}
-
-function Question(props) {
-    
-    function handleClick({target}) {
-        props.setKey(target.id)
-        props.setCount(1)
-    } 
-
-    return (
-        <div className="question-card">
-        <h3>Choose one of the options that characterise you</h3>
-        <div className="question-options">
-            <div className="question-option"
-            key={Object.keys(props.question)[0]} 
-            id={Object.keys(props.question)[0]}
-            onClick={(e) => handleClick(e)}>
-                {Object.values(props.question)[0]}
-            </div>
-            <div className="question-option"
-            key={Object.keys(props.question)[1]} 
-            id={Object.keys(props.question)[1]}
-            onClick={(e) => handleClick(e)}>
-                {Object.values(props.question)[1]}
-            </div>
-        </div>
-        </div>
-    )
-}
-
-function Result({result}) {
-    return (
-        <div className="result">
-            <h4 className="result-title">You're {result.character}</h4>        
-            <div className='result-description'>
-            <img  className="result-img" src={result.img} alt={result.character}/>
-            <div>
-            <p>Your strengths: {result.strengths}</p>
-            <p>Your weaknesses: {result.weaknesses}</p>
-            </div>
-            </div>
         </div>
     )
 }

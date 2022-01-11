@@ -3,9 +3,10 @@
 }
 
 .question-options {
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .question-card .question-option, .quiz .result .result-description p {
