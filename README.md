@@ -9,9 +9,9 @@ The challenge was to create database design to access quiz keys and question opt
 
 Quiz start/restart feature \
 View of answer options \
-View of quiz results \
+View of quiz results 
 
-### Installation
+## Installation
 
 ### Clone this repository
 $ git clone [https://github.com/OlhaLatun/quiz.git](https://github.com/OlhaLatun/quiz.git)
@@ -22,9 +22,9 @@ $ cd quiz
 ### Install dependencies
 $ npm install
 
-### Run the app in the development mode on [http://localhost:3000](http://localhost:3000)
+### Run the app in the development mode 
 
-$ npm start
+Run $ npm start and go to [http://localhost:3000](http://localhost:3000)
 
 or see deployed project on [https://olhalatun.github.io/quiz/](https://olhalatun.github.io/quiz/)
 
@@ -32,5 +32,4 @@ or see deployed project on [https://olhalatun.github.io/quiz/](https://olhalatun
 
 The test is inspired by one of the best cartoon series ever existed :)\
 The test is based on Myers-Briggs Type Indicator which makes the theory of psychological types described by C. G. Jung understandable and useful in people's lives.
-
 
